@@ -1,11 +1,7 @@
-let m = deeplearn.classifier('mobilenet', loaded)
-// console.log(m)
-function loaded(){
-  console.log(m)
+function hello_world(){
+    console.log('hello world');
 }
 
-
-
-//loading model
-// tf.loadModel('/deeplearn/mobilenet/model.json')
-// .then(m => console.log(m))
+module.exports = {
+    hello_world
+} 
