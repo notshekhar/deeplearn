@@ -7,11 +7,11 @@
 // }
 
 module.exports = {
-	entry: "./index.js",
+	entry: "./src/index.js",
 	output: {
-		filename: "./bundle.js",
+		filename: "./dl.min.js",
 		library: "dl"
 	},
 	watch: true,
-	mode: "production"
+	mode: "development"
 }
